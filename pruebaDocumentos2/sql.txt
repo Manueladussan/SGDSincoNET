@@ -1,0 +1,10 @@
+create database documentos;
+
+create table DocumentosSinco
+(
+id int identity(1,1) primary key,
+nombre_personalizado varchar(100),
+nombre_real varchar(100),
+extension varchar(20),
+mime_type varchar(200),
+archivo varchar(100));
